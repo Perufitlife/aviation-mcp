@@ -1,0 +1,7 @@
+{
+  "title": "Aviation MCP Server",
+  "description": "Run as a Standby Actor and connect from any MCP client (Claude Desktop, ChatGPT, Cursor, Cline, Continue, Windsurf). Gives your AI agent live aviation data: decoded METAR weather, airport info by ICAO, aircraft specs, an aviation glossary, FAA-style practice questions, and a daily pilot quiz. No API key required.",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {}
+}

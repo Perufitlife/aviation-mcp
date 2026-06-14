@@ -1,0 +1,25 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.Perufitlife/aviation-mcp",
+  "description": "Live aviation data for AI agents: decoded METAR weather, airport info by ICAO, aircraft specs, glossary, FAA practice questions, daily pilot quiz.",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/Perufitlife/aviation-mcp",
+    "source": "github"
+  },
+  "websiteUrl": "https://apify.com/renzomacar/aviation-mcp",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://renzomacar--aviation-mcp.apify.actor/mcp?token={apifyToken}",
+      "variables": {
+        "apifyToken": {
+          "description": "Your Apify API token. Free at console.apify.com/account/integrations",
+          "isRequired": true,
+          "isSecret": true,
+          "format": "string"
+        }
+      }
+    }
+  ]
+}

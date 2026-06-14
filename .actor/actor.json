@@ -1,0 +1,14 @@
+{
+  "actorSpecification": 1,
+  "name": "aviation-mcp",
+  "title": "Aviation MCP — Live METAR, Airports & Aircraft for AI Agents",
+  "version": "0.1",
+  "buildTag": "latest",
+  "defaultMemoryMbytes": 1024,
+  "minMemoryMbytes": 256,
+  "maxMemoryMbytes": 2048,
+  "dockerfile": "../Dockerfile",
+  "readme": "../README.md",
+  "input": "./input_schema.json",
+  "webServerMcpPath": "/mcp"
+}
