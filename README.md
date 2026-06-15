@@ -24,7 +24,24 @@ Powered by the free [Rotate Pilot](https://rotatepilot.com/developers) aviation 
 
 ## Connect it
 
-This runs as an Apify **Standby Actor** that speaks MCP over Streamable HTTP. Add it to your client config:
+### Option A — run it yourself (free, no key)
+
+```json
+{
+  "mcpServers": {
+    "aviation": {
+      "command": "npx",
+      "args": ["-y", "@renzom13/aviation-mcp"]
+    }
+  }
+}
+```
+
+That's it — `npx` pulls the package and starts the server over stdio. No signup, no token. Data comes from the free Rotate Pilot API.
+
+### Option B — hosted (zero-setup, pay-per-use)
+
+For a managed, always-on endpoint with nothing to install, use the Apify-hosted version:
 
 ```json
 {
@@ -36,7 +53,7 @@ This runs as an Apify **Standby Actor** that speaks MCP over Streamable HTTP. Ad
 }
 ```
 
-Get a free Apify token at [console.apify.com/account/integrations](https://console.apify.com/account/integrations). Legacy SSE clients can use `/sse` instead of `/mcp`.
+Get a free Apify token at [console.apify.com/account/integrations](https://console.apify.com/account/integrations). Legacy SSE clients can use `/sse` instead of `/mcp`. Hosted calls are billed per tool call.
 
 ## Pricing
 
