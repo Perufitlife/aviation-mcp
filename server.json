@@ -2,12 +2,24 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.Perufitlife/aviation-mcp",
   "description": "Live aviation data for AI agents: METAR weather, airports, aircraft, glossary & FAA questions.",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "repository": {
     "url": "https://github.com/Perufitlife/aviation-mcp",
     "source": "github"
   },
   "websiteUrl": "https://apify.com/renzomacar/aviation-mcp",
+  "packages": [
+    {
+      "registryType": "npm",
+      "registryBaseUrl": "https://registry.npmjs.org",
+      "identifier": "@renzom13/aviation-mcp",
+      "version": "1.0.2",
+      "runtimeHint": "npx",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ],
   "remotes": [
     {
       "type": "streamable-http",
