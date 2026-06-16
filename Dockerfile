@@ -7,4 +7,6 @@ RUN npm --quiet set progress=false \
 
 COPY --chown=myuser:myuser . ./
 
-CMD npm start
+# Launcher picks transport by environment: HTTP standby on Apify (paid hosted
+# endpoint), stdio everywhere else (Glama build/test, generic docker, local).
+CMD ["node", "src/start.js"]

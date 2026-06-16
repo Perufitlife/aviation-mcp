@@ -8,7 +8,8 @@
     "aviation-mcp": "src/stdio.js"
   },
   "scripts": {
-    "start": "node src/main.js",
+    "start": "node src/start.js",
+    "start:http": "node src/main.js",
     "start:stdio": "node src/stdio.js"
   },
   "files": [
