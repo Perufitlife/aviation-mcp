@@ -1,6 +1,6 @@
 {
   "name": "@renzom13/aviation-mcp",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "MCP server giving AI agents (ChatGPT, Claude, Cursor) live aviation data: decoded METAR weather, airport info, aircraft specs, glossary, FAA practice questions, and a daily pilot quiz. Powered by the free Rotate Pilot API.",
   "type": "module",
   "main": "src/main.js",
