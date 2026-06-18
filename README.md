@@ -1,5 +1,7 @@
 # Aviation MCP Server ✈️
 
+[![aviation-mcp MCP server](https://glama.ai/mcp/servers/Perufitlife/aviation-mcp/badges/score.svg)](https://glama.ai/mcp/servers/Perufitlife/aviation-mcp)
+
 Give your AI agent **live aviation data**. Connect this MCP server to Claude Desktop, ChatGPT, Cursor, Cline, Continue, or Windsurf and your assistant can pull real METAR weather, airport info, aircraft specs, an aviation glossary, and FAA-style practice questions — on demand.
 
 Powered by the free [Rotate Pilot](https://rotatepilot.com/developers) aviation API. **No API keys to wrangle, no signup** — just connect and go.
